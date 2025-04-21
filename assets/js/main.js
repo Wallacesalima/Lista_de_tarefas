@@ -93,7 +93,7 @@ function finalizarEdicao(input, li) {
         li.insertBefore(textoNode, li.firstChild) // Insere o novo texto
         salvarTarefas() // Atualiza localStorage
     } else {
-        alert('O texto não pode ser vazio.') // Alerta se estiver vazio
+        alert('O texto não pode ser vazio!') // Alerta se estiver vazio
         input.focus() // Retorna o foco pro input
     }
 }
